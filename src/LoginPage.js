@@ -66,7 +66,7 @@ class LoginPage extends Component {
       <div className="app">
         <header className="app-header">
           {this.state.isAuthenticated ? (
-            <p>successfull</p>
+            <p></p>
           ) : (
             <p>
               <button onClick={() => this.login()}>login </button>
